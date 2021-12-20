@@ -1,0 +1,68 @@
+@import url("bootstrap.min.css");
+body {
+    font-family: 'Nunito';
+}
+.navbar.fixed-top {
+    background-color: white;
+    padding: unset;
+}
+.nav {
+    align-items: center;
+}
+.logo {
+    width: 204px;
+}
+main {
+    margin-top: 95px;
+}
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+.social-icon {
+    color: var(--bs-gray-dark);
+}
+.social-icon:hover {
+    color: var(--bs-coral);
+}
+.shadow-sm:hover{
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.15)!important;
+    transition: box-shadow 0.3s ease-in-out !important;
+}
+.shadow-sm.still:hover{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.card {
+    border: unset !important;
+    border-radius : unset;
+}
+.card-img {
+    border-radius: unset;
+}
+.progress-bar.bg-coral {
+    background-color: var(--bs-coral) !important;
+}
+.amount-progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.progress {
+    flex: 2;
+    border-radius: 30px !important;
+    font-weight: bold;
+    height: 1.3rem !important;
+}
+.amount {
+    flex: 1;
+    margin-left: 15px;
+}
+.amount-txt {
+    font-weight: bold;
+    margin-bottom: 0 !important;
+    line-height: 1.3rem !important;
+}
+.card, .card-img {
+    border-radius: unset !important;
+}
